@@ -1,12 +1,20 @@
 *{
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'Oswald', sans-serif ;
 }
 html{
-    box-sizing: border-box !important;
+    box-sizing: border-box ;
 }
 body {
     margin: 0;
     padding: 0;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(87,94,97,0.94) 50%, rgba(0,0,0,0.87) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(50%, rgba(87,94,97,0.94)), color-stop(100%, rgba(0,0,0,0.87)));
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(87,94,97,0.94) 50%, rgba(0,0,0,0.87) 100%);
+    background: -o-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(87,94,97,0.94) 50%, rgba(0,0,0,0.87) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(87,94,97,0.94) 50%, rgba(0,0,0,0.87) 100%);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(87,94,97,0.94) 50%, rgba(0,0,0,0.87) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 )
 }
 a{
     text-decoration: none;
@@ -16,157 +24,20 @@ ul{
 }
 img{
     width: 100%;
-}
+} */
 .bg-main{
     background-color: #00990E;
 }
-/* .Yaz{
-    width: 100%;
-    height: 15dvh;
-    position: relative;
-    background-color: black !important;
+.bg-purple{
+    background-color: #833AB4 !important;
 }
-.Yaz ul {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.Yaz ul li {
-    
-    list-style: none;
-    font-size: 3em;
-    letter-spacing: 10px;
-    text-shadow: none ;
-    animation: animate 1s linear forwards;
-}
-@keyframes animate {
-    0% {
-        color: #fff;
-        text-shadow: none;
-    }
-    18%{
-        color: #00990E;
-        text-shadow: 0 0 0 7px #fff, 0 0 20px #00990E;
-    }
-    30% {
-        color: #fff;
-        text-shadow: none;
-    }
-    35%{
-        color: #00990E;
-        text-shadow: 0 0 0 7px #fff, 0 0 20px #00990E;
-    }
-    43% {
-        color: #fff;
-        text-shadow: none;
-    }
-    49%{
-        color: #00990E;
-        text-shadow: 0 0 0 7px #fff, 0 0 20px #00990E;
-    }
-    59% {
-        color: #fff;
-        text-shadow: none;
-    }
-    64%{
-        color: #00990E;
-        text-shadow: 0 0 0 7px #fff, 0 0 20px #00990E;
-    }
-    72% {
-        color: #fff;
-        text-shadow: none;
-    }
-    80%{
-        color: #00990E;
-        text-shadow: 0 0 0 7px #fff, 0 0 20px #00990E;
-    }
-    87% {
-        color: #fff;
-        text-shadow: none;
-    }
-    93%{
-        color: #00990E;
-        text-shadow: 0 0 0 7px #fff, 0 0 20px #00990E;
-    }
-    100% {
-        color: #fff;
-        text-shadow: none;
-    }
-}
-.Yaz ul li:nth-child(1) {
-animation-delay: .2s;
-}
-.Yaz ul li:nth-child(2) {
-animation-delay: .3s;
-}
-.Yaz ul li:nth-child(3) {
-animation-delay: .4s;
-}
-.Yaz ul li:nth-child(4) {
-animation-delay: .5s;
-}
-.Yaz ul li:nth-child(5) {
-animation-delay: .6s;
-}
-.Yaz ul li:nth-child(6) {
-animation-delay: .7s;
-}
-.Yaz ul li:nth-child(7) {
-animation-delay: 1s;
-}
-.Yaz ul li:nth-child(8) {
-animation-delay: 1.1s;
-}
-.Yaz ul li:nth-child(9) {
-animation-delay: 1.2s;
-}
-.Yaz ul li:nth-child(10) {
-animation-delay: 1.3s;
-}
-.Yaz ul li:nth-child(11) {
-animation-delay: 1.4s;
-}
-.Yaz ul li:nth-child(12) {
-animation-delay: 1.5s;
-}
-.Yaz ul li:nth-child(13) {
-animation-delay: 1.6s;
-}
-.Yaz ul li:nth-child(14) {
-animation-delay: 1.7s;
-}
-.Yaz ul li:nth-child(15) {
-animation-delay: 1.8s;
-}
-.Yaz ul li:nth-child(16) {
-animation-delay: 1.9s;
-}
-.Yaz ul li:nth-child(17) {
-animation-delay: 2s;
-}
-.Yaz ul li:nth-child(18) {
-animation-delay: 2.1s;
-} */
-
 .conta {
     width: 100%;
     height: 95dvh;
-    background-color: #00990E;
 }
-
-/* .conta .col-4 .yuvar img{
-    
-    object-fit: contain;
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-} */
+.pad{
+    padding-top: 60px;
+}
 .yuvar{
     /* box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.75); */
     border: 25px solid #fff !important;
@@ -181,3 +52,31 @@ animation-delay: 2.1s;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.yetenek-contaier{
+    width: 100%;
+    height: 30dvh;
+}
+.yetenek{
+    height: 20dvh;
+    float: right;
+}
+.custom-progress {
+    height: 50px !important;
+}
+.custom-progress .progress-bar{
+    height: 100%;
+}
+.isim{
+    font-size: 100px;
+    margin-right: 60px;
+}
+.unvan{
+    font-size: 60px;
+    margin-right: 60px;
+}
+.sosyal-container{
+    width: 100%;
+    height: 30dvh;
+    padding-top: 30px;
+}
+

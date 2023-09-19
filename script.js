@@ -1,1 +1,0 @@
-let typed = document.getElementById("element");
