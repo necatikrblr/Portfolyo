@@ -1,9 +1,4 @@
-/* @property --rotate{
-    syntax: "<angle>";
-    initial-value: 132deg;
-    inherits: false;
-  }
-   */
+
 *{
     font-family: 'Oswald', sans-serif ;
 }
@@ -192,18 +187,6 @@ box-shadow: 1px 4px 13px 14px rgba(0,0,0,0.75);
 .borderb:hover{
     padding: 5px 0;
 }
-/* .container1 {
-    width: 100%;
-    height: 60dvh;
-    margin-bottom: 100px;
-    margin-top: 50px;
-}
-.container2{
-    height: 42dvh;
-}
-.container3{
-    height: 60dvh;
-} */
 .yuvar img{
     width: 100%;
     height: 100%;
